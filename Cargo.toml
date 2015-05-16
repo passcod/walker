@@ -1,0 +1,19 @@
+[package]
+name = "walker"
+version = "1.0.0"
+authors = [
+  "Félix Saparelli <me@passcod.name>",
+]
+
+description = "Recursive directory walk"
+homepage = "https://github.com/passcod/walker"
+repository = "https://github.com/passcod/walker.git"
+
+readme = "README.md"
+license = "Apache-2.0 / MIT"
+keywords = [
+  "filesystem",
+  "recursive",
+  "walk",
+  "walk_dir",
+]
