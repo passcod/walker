@@ -14,11 +14,11 @@ walker = "^1.0.0"
 ## Usage
 
 ```rust
-use walker::walk;
+use walker::Walker;
 
 extern crate walker;
 
-match walk(path) {
+match Walker::new(path) {
   Err(e) => panic!(),
   Ok(iter) => {
     for entry in iter {
@@ -27,6 +27,8 @@ match walk(path) {
   }
 }
 ```
+
+You can also use `.rewind()` on a Walker instance to reset the iterator.
 
 ## Stability
 
