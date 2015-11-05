@@ -1,5 +1,21 @@
 # Walker
 
+__With the introduction of the fabulous @BurntSushi's [Walkdir],
+this library will soon be deprecated. This is an early warning to
+give you time to switch over with ease.__
+
+Upon deprecation, Walker will implement a thin wrapper around Walkdir,
+keeping the same interface as before as much as possible, and bumping
+only the patch version number.
+
+After a reasonable amount of time has passed, and downloads of this
+library have reduced to nil or nearly there, it will be _yanked_ from
+Crates.io and the namespace returned to the wild.
+
+[walkdir]: https://crates.io/crates/walkdir
+
+---
+
 _[Unstable]? Psshhh, imma give you that thing._
 
 ## Install
