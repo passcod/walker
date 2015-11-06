@@ -10,9 +10,11 @@ only the patch version number.
 
 After a reasonable amount of time has passed, and downloads of this
 library have reduced to nil or nearly there, it will be _yanked_ from
-Crates.io and the namespace returned to the wild.
+Crates.io as a way to enforce depreciation. At this point and thereafter,
+if [someone wants the name I'm open to transfer ownership of the crate][1].
 
 [walkdir]: https://crates.io/crates/walkdir
+[1]: https://www.reddit.com/r/rust/comments/3roe70/advance_notice_of_deprecation_for_walker/cwq0ovn
 
 ---
 
