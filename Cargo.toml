@@ -17,3 +17,6 @@ keywords = [
   "walk",
   "walk_dir",
 ]
+
+[badges]
+maintenance = { status = "deprecated" }
